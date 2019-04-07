@@ -34,6 +34,31 @@ class Counter extends React.Component {
                 <h1>
                     {this.state.number}
                 </h1>
+                <button
+                    onClick={this.adding1}
+                >
+                    + 1
+                </button>
+                <button
+                    onClick={this.substract1}
+                >
+                    - 1
+                </button>
+                <button
+                    onClick={this.adding5}
+                >
+                    + 5
+                </button>
+                <button
+                    onClick={this.substract5}
+                >
+                    - 5
+                </button>
+                <button
+                    onClick={() => this.reset}
+                >
+                    Reset
+                </button>
             </div>
         )
     }
