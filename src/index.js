@@ -11,5 +11,4 @@ ReactDOM.render(
     document.getElementById('root')
 )
 
-ReactDOM.render(<Counter />, document.getElementById('root'))
 
